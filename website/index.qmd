@@ -9,7 +9,7 @@ format:
       dark: darkly
 ---
 
-![](Front_Cover.png){width=800}
+![](Front_Cover.png){width=200}
 
 
 <div style="text-align: center">
