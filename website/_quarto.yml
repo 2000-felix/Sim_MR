@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: "Synthetic Images"
+#   navbar:
+#     left:
+#       - href: index.qmd
+#         text: Home
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    include-in-header:
+      text: |
+        <script defer src="http://home.diogoaos.com:3000/script.js" data-website-id="e9fb1a46-1eb9-423b-9b7e-3c7102782882"></script>
+
+
+

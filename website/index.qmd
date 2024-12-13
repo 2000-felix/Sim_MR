@@ -1,0 +1,52 @@
+---
+bibliography: refs.bib
+csl: ieee.csl
+format:
+  html:
+    toc: true
+    theme:
+      light: flatly
+      dark: darkly
+---
+
+![](header.png){width=800}
+
+
+<div style="text-align: center">
+
+
+# Impact of Synthetic Images in the Training of Neural Networks for Airborne Vessel Segmentation 
+
+**Francisco Matilde, Gonçalo Cruz, Diogo Silva**
+
+![](fap_afa.png){width=400}
+
+</div>
+
+::: {.callout-note}
+Automation scripts for Blender and other utilities used in the development of this work can be found in the official [Github repository](https://github.com/ciafa-sw/synthetic_vessel_detection).
+:::
+
+Synthetic images have appeared as a possible solution to the scarcity of real images for training neural networks. We investigate their use in the training of ship detectors in aerial imagery. We create a synthetic dataset through 2 distinct methods: modeling and rendering with Blender, and a learning-based approach with GauGAN. YOLACT++ was chosen as the detector and its performance was evaluated when synthetic images were included in its training. The results suggest that synthetic augmentations can improve a model's performance, under certain conditions. Adding synthetic data to large training sets degraded performance on the target domain, but significantly improved it on small datasets.
+
+
+---
+
+Images from [Seagull dataset](https://vislab.isr.ist.utl.pt/seagull-dataset/) @seagull2017 were used for the test set. These are aerial images of vessels, which represent our target scenario. Our setup was under the assumption that we didn't have enough data for our target scenario. To adress this, we simulated our target scenario with Blender and also used real images from a related domain, i.e. satellite imagery from Airbus Ship Detection Challenge @airbus-ship-detection. We also used GauGAN to produce synthetic images from the related domain. We didn't use generated GauGAN images for the target domain in the training set, as we had very little images and the generated images were fairly similar. 
+
+![Sample of data used for detector training.](img/final_sample.png){width=400}
+
+
+Our Blender generation process aimed to extend the methodology adopted in the production of the [MarSyn dataset](https://vislab.isr.tecnico.ulisboa.pt/marsyn-dataset/) @marsyn2022, by automating many tasks. 
+
+## Examples from Blender
+
+![Image-segmentation pairs from Blender generated images.](img/blender.png){width=400}
+
+
+
+
+## Examples from GauGAN
+
+![Image-segmentation pairs from GauGAN generated images.](img/gaugan.png){width=400}
+
