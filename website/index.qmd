@@ -9,15 +9,13 @@ format:
       dark: darkly
 ---
 
-![](Front Cover.png){width=800}
+![](Front_Cover.png){width=800}
 
 
 <div style="text-align: center">
 
 
-# Criação de um simulador de voo híbrido, de realidade
-virtual e mista, e proposta de adaptação do Syllabus de
-instrução de voo
+# Criação de um simulador de voo híbrido, de realidade virtual e mista, e proposta de adaptação do Syllabus de instrução de voo
 
 **Francisco Félix, Paula Gonçalves, Diogo Silva**
 
