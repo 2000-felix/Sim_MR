@@ -27,7 +27,11 @@ format:
 O código e as modulações estão presentes no [repositório do GitHub](https://github.com/2000-felix/Sim_MR).
 :::
 
-Tecnologias Aeronáuticas.
+É essencial tornar o treino dos pilotos mais produtivo e eficaz, reduzindo os custos, mas sem comprometer a segurança. Tecnologias emergentes, como a realidade virtual e a realidade mista, aplicadas à instrução de voo, poderão transformar o paradigma atual.
+O desenvolvimento de sistemas de simulação de voo que utilizem tecnologias de realidade estendida é crucial para integrar os novos avanços tecnológicos na instrução de voo, funcionando também como uma prova de conceito para outros sistemas de armas da Força Aérea Portuguesa (FAP). Este trabalho propôs-se a delinear a metodologia para o desenvolvimento de um simulador de voo, aplicável a um qualquer sistema de armas, que empregue tanto realidade virtual (VR) como realidade mista (MR) e a sua respetiva implementação. Para tal, foi necessária a criação de duas plataformas distintas: uma, com base no sistema já existente na Esquadra 802, que utilizará tecnologia de realidade mista; e outra, desenvolvida de raiz, para simulação em realidade virtual de qualquer aeronave, seja de asa fixa ou rotativa.
+A construção dos simuladores propostos nesta dissertação foi realizada integrando produtos comerciais disponíveis no mercado (COTS), tanto em hardware como em software, e utilizando manufatura aditiva. Estes apresentam, de forma geral, um custo significativamente inferior ao dos simuladores especializados produzidos por fabricantes aeronáuticos.
+Por último, foi apresentada uma proposta de alteração ao plano de instrução de voo da Esquadra 802, que inclui a integração dos simuladores no processo.
+
 
 
 ---
