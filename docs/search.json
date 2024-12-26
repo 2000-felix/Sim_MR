@@ -4,20 +4,34 @@
     "href": "index.html",
     "title": "Criação de um simulador de voo híbrido, de realidade virtual e mista, e proposta de adaptação do Syllabus de instrução de voo",
     "section": "",
-    "text": "É essencial tornar o treino dos pilotos mais produtivo e eficaz, reduzindo os custos, mas sem comprometer a segurança. Tecnologias emergentes, como a realidade virtual e a realidade mista, aplicadas à instrução de voo, poderão transformar o paradigma atual. O desenvolvimento de sistemas de simulação de voo que utilizem tecnologias de realidade estendida é crucial para integrar os novos avanços tecnológicos na instrução de voo, funcionando também como uma prova de conceito para outros sistemas de armas da Força Aérea Portuguesa (FAP). Este trabalho propôs-se a delinear a metodologia para o desenvolvimento de um simulador de voo, aplicável a um qualquer sistema de armas, que empregue tanto realidade virtual (VR) como realidade mista (MR) e a sua respetiva implementação. Para tal, foi necessária a criação de duas plataformas distintas: uma, com base no sistema já existente na Esquadra 802, que utilizará tecnologia de realidade mista; e outra, desenvolvida de raiz, para simulação em realidade virtual de qualquer aeronave, seja de asa fixa ou rotativa. A construção dos simuladores propostos nesta dissertação foi realizada integrando produtos comerciais disponíveis no mercado (COTS), tanto em hardware como em software, e utilizando manufatura aditiva. Estes apresentam, de forma geral, um custo significativamente inferior ao dos simuladores especializados produzidos por fabricantes aeronáuticos. Por último, foi apresentada uma proposta de alteração ao plano de instrução de voo da Esquadra 802, que inclui a integração dos simuladores no processo.\nA aplicação dos sensores nos controlos de voo foi feita através de manufatura aditiva, permitindo esta que a substituição de componentes seja rápida, eficaz e adaptável. Para o sistema de simulação Chipmunk: foram modeladas peças para o manche e pedais. Para o sistema de simulação multiplataformas: modeladas e desenvolvidas uma plataforma para o manche/cíclico e um quadrante com manetes de potência, passo, mistura e compensador, e modeladas peças para o coletivo e pedais.\nOur Blender generation process aimed to extend the methodology adopted in the production of the MarSyn dataset [1], by automating many tasks."
+    "text": "É essencial tornar o treino dos pilotos mais produtivo e eficaz, reduzindo os custos, mas sem comprometer a segurança. Tecnologias emergentes, como a realidade virtual e a realidade mista, aplicadas à instrução de voo, poderão transformar o paradigma atual. O desenvolvimento de sistemas de simulação de voo que utilizem tecnologias de realidade estendida é crucial para integrar os novos avanços tecnológicos na instrução de voo, funcionando também como uma prova de conceito para outros sistemas de armas da Força Aérea Portuguesa (FAP). Este trabalho propôs-se a delinear a metodologia para o desenvolvimento de um simulador de voo, aplicável a um qualquer sistema de armas, que empregue tanto realidade virtual (VR) como realidade mista (MR) e a sua respetiva implementação. Para tal, foi necessária a criação de duas plataformas distintas: uma, com base no sistema já existente na Esquadra 802, que utilizará tecnologia de realidade mista; e outra, desenvolvida de raiz, para simulação em realidade virtual de qualquer aeronave, seja de asa fixa ou rotativa. A construção dos simuladores propostos nesta dissertação foi realizada integrando produtos comerciais disponíveis no mercado (COTS), tanto em hardware como em software, e utilizando manufatura aditiva. Estes apresentam, de forma geral, um custo significativamente inferior ao dos simuladores especializados produzidos por fabricantes aeronáuticos. Por último, foi apresentada uma proposta de alteração ao plano de instrução de voo da Esquadra 802, que inclui a integração dos simuladores no processo."
   },
   {
-    "objectID": "index.html#examples-from-blender",
-    "href": "index.html#examples-from-blender",
+    "objectID": "index.html#modelações-3d-dos-controlos-de-voo",
+    "href": "index.html#modelações-3d-dos-controlos-de-voo",
     "title": "Criação de um simulador de voo híbrido, de realidade virtual e mista, e proposta de adaptação do Syllabus de instrução de voo",
-    "section": "Examples from Blender",
-    "text": "Examples from Blender\n\n\n\nImage-segmentation pairs from Blender generated images."
+    "section": "Modelações 3D dos controlos de voo",
+    "text": "Modelações 3D dos controlos de voo\nA aplicação dos sensores nos controlos de voo foi feita através de manufatura aditiva, permitindo esta que a substituição de componentes seja rápida, eficaz e adaptável. Para o sistema de simulação Chipmunk: foram modeladas peças para o manche e pedais. Para o sistema de simulação multiplataformas: modeladas e desenvolvidas uma plataforma para o manche/cíclico e um quadrante com manetes de potência, passo, mistura e compensador, e modeladas peças para o coletivo e pedais.\n\n\n\nConjunto de imagens das modelações 3D e aplicações reais"
   },
   {
-    "objectID": "index.html#examples-from-gaugan",
-    "href": "index.html#examples-from-gaugan",
+    "objectID": "index.html#esquema-dos-softwares-utilizados",
+    "href": "index.html#esquema-dos-softwares-utilizados",
     "title": "Criação de um simulador de voo híbrido, de realidade virtual e mista, e proposta de adaptação do Syllabus de instrução de voo",
-    "section": "Examples from GauGAN",
-    "text": "Examples from GauGAN\n\n\n\nImage-segmentation pairs from GauGAN generated images."
+    "section": "Esquema dos softwares utilizados",
+    "text": "Esquema dos softwares utilizados\n\n\n\nEsquema dos softwares utilizados"
+  },
+  {
+    "objectID": "index.html#esquema-do-hardware-utilizado",
+    "href": "index.html#esquema-do-hardware-utilizado",
+    "title": "Criação de um simulador de voo híbrido, de realidade virtual e mista, e proposta de adaptação do Syllabus de instrução de voo",
+    "section": "Esquema do hardware utilizado",
+    "text": "Esquema do hardware utilizado\n\n\n\nEsquema do hardware utilizado"
+  },
+  {
+    "objectID": "index.html#exemplo-de-configuração-mr-e-teste-de-voo",
+    "href": "index.html#exemplo-de-configuração-mr-e-teste-de-voo",
+    "title": "Criação de um simulador de voo híbrido, de realidade virtual e mista, e proposta de adaptação do Syllabus de instrução de voo",
+    "section": "Exemplo de configuração MR e teste de voo",
+    "text": "Exemplo de configuração MR e teste de voo\n\n\nVideo\nTeste de voo do simulador MR."
   }
 ]

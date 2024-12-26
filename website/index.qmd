@@ -24,7 +24,7 @@ format:
 </div>
 
 ::: {.callout-note}
-O código e as modulações estão presentes no [repositório do GitHub](https://github.com/2000-felix/Sim_MR).
+O código e as modelações estão presentes no [repositório do GitHub](https://github.com/2000-felix/Sim_MR).
 :::
 
 É essencial tornar o treino dos pilotos mais produtivo e eficaz, reduzindo os custos, mas sem comprometer a segurança. Tecnologias emergentes, como a realidade virtual e a realidade mista, aplicadas à instrução de voo, poderão transformar o paradigma atual.
@@ -35,24 +35,25 @@ Por último, foi apresentada uma proposta de alteração ao plano de instrução
 
 
 ---
+## Modelações 3D dos controlos de voo
 
 A aplicação dos sensores nos controlos de voo foi feita através de manufatura aditiva, permitindo esta que a substituição de componentes seja rápida, eficaz e adaptável. 
 Para o sistema de simulação Chipmunk: foram modeladas peças para o manche e pedais. 
 Para o sistema de simulação multiplataformas: modeladas e desenvolvidas uma plataforma para o manche/cíclico e um quadrante com manetes de potência, passo, mistura e compensador, e modeladas peças para o coletivo e pedais.
 
-![Conjunto de imagens das modelações 3D e aplicações reais](img/Modelacoes.png){width=1000}
+![Conjunto de imagens das modelações 3D e aplicações reais](img/Modelacoes.png){width=800}
+
+## Esquema dos softwares utilizados
+![Esquema dos softwares utilizados](img/Esquema_software.png){width=800}
+
+## Esquema do hardware utilizado
+![Esquema do hardware utilizado](img/Esquema_hardware.png){width=800}
+
+## Exemplo de configuração MR e teste de voo
+
+![Teste de voo do simulador MR.](img/video.mp4){width=800}
 
 
-Our Blender generation process aimed to extend the methodology adopted in the production of the [MarSyn dataset](https://vislab.isr.tecnico.ulisboa.pt/marsyn-dataset/) @marsyn2022, by automating many tasks. 
-
-## Examples from Blender
-
-![Image-segmentation pairs from Blender generated images.](img/blender.png){width=400}
 
 
-
-
-## Examples from GauGAN
-
-![Image-segmentation pairs from GauGAN generated images.](img/gaugan.png){width=400}
 
