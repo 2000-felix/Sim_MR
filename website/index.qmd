@@ -36,9 +36,11 @@ Por último, foi apresentada uma proposta de alteração ao plano de instrução
 
 ---
 
-Images from [Seagull dataset](https://vislab.isr.ist.utl.pt/seagull-dataset/) @seagull2017 were used for the test set. These are aerial images of vessels, which represent our target scenario. Our setup was under the assumption that we didn't have enough data for our target scenario. To adress this, we simulated our target scenario with Blender and also used real images from a related domain, i.e. satellite imagery from Airbus Ship Detection Challenge @airbus-ship-detection. We also used GauGAN to produce synthetic images from the related domain. We didn't use generated GauGAN images for the target domain in the training set, as we had very little images and the generated images were fairly similar. 
+A aplicação dos sensores nos controlos de voo foi feita através de manufatura aditiva, permitindo esta que a substituição de componentes seja rápida, eficaz e adaptável. 
+Para o sistema de simulação Chipmunk: foram modeladas peças para o manche e pedais. 
+Para o sistema de simulação multiplataformas: modeladas e desenvolvidas uma plataforma para o manche/cíclico e um quadrante com manetes de potência, passo, mistura e compensador, e modeladas peças para o coletivo e pedais.
 
-![Sample of data used for detector training.](img/final_sample.png){width=400}
+![Conjunto de imagens das modelações 3D e aplicações reais](img/Modelacoes.png){width=1000}
 
 
 Our Blender generation process aimed to extend the methodology adopted in the production of the [MarSyn dataset](https://vislab.isr.tecnico.ulisboa.pt/marsyn-dataset/) @marsyn2022, by automating many tasks. 

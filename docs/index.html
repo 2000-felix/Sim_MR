@@ -136,16 +136,16 @@ Note
 <p>O código e as modulações estão presentes no <a href="https://github.com/2000-felix/Sim_MR">repositório do GitHub</a>.</p>
 </div>
 </div>
-<p>Tecnologias Aeronáuticas.</p>
+<p>É essencial tornar o treino dos pilotos mais produtivo e eficaz, reduzindo os custos, mas sem comprometer a segurança. Tecnologias emergentes, como a realidade virtual e a realidade mista, aplicadas à instrução de voo, poderão transformar o paradigma atual. O desenvolvimento de sistemas de simulação de voo que utilizem tecnologias de realidade estendida é crucial para integrar os novos avanços tecnológicos na instrução de voo, funcionando também como uma prova de conceito para outros sistemas de armas da Força Aérea Portuguesa (FAP). Este trabalho propôs-se a delinear a metodologia para o desenvolvimento de um simulador de voo, aplicável a um qualquer sistema de armas, que empregue tanto realidade virtual (VR) como realidade mista (MR) e a sua respetiva implementação. Para tal, foi necessária a criação de duas plataformas distintas: uma, com base no sistema já existente na Esquadra 802, que utilizará tecnologia de realidade mista; e outra, desenvolvida de raiz, para simulação em realidade virtual de qualquer aeronave, seja de asa fixa ou rotativa. A construção dos simuladores propostos nesta dissertação foi realizada integrando produtos comerciais disponíveis no mercado (COTS), tanto em hardware como em software, e utilizando manufatura aditiva. Estes apresentam, de forma geral, um custo significativamente inferior ao dos simuladores especializados produzidos por fabricantes aeronáuticos. Por último, foi apresentada uma proposta de alteração ao plano de instrução de voo da Esquadra 802, que inclui a integração dos simuladores no processo.</p>
 <hr>
-<p>Images from <a href="https://vislab.isr.ist.utl.pt/seagull-dataset/">Seagull dataset</a> <span class="citation" data-cites="seagull2017"><a href="#ref-seagull2017" role="doc-biblioref">[1]</a></span> were used for the test set. These are aerial images of vessels, which represent our target scenario. Our setup was under the assumption that we didn’t have enough data for our target scenario. To adress this, we simulated our target scenario with Blender and also used real images from a related domain, i.e.&nbsp;satellite imagery from Airbus Ship Detection Challenge <span class="citation" data-cites="airbus-ship-detection"><a href="#ref-airbus-ship-detection" role="doc-biblioref">[2]</a></span>. We also used GauGAN to produce synthetic images from the related domain. We didn’t use generated GauGAN images for the target domain in the training set, as we had very little images and the generated images were fairly similar.</p>
+<p>A aplicação dos sensores nos controlos de voo foi feita através de manufatura aditiva, permitindo esta que a substituição de componentes seja rápida, eficaz e adaptável. Para o sistema de simulação Chipmunk: foram modeladas peças para o manche e pedais. Para o sistema de simulação multiplataformas: modeladas e desenvolvidas uma plataforma para o manche/cíclico e um quadrante com manetes de potência, passo, mistura e compensador, e modeladas peças para o coletivo e pedais.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/final_sample.png" class="img-fluid figure-img" width="400"></p>
-<figcaption>Sample of data used for detector training.</figcaption>
+<p><img src="img/Modelacoes.png" class="img-fluid figure-img" width="1000"></p>
+<figcaption>Conjunto de imagens das modelações 3D e aplicações reais</figcaption>
 </figure>
 </div>
-<p>Our Blender generation process aimed to extend the methodology adopted in the production of the <a href="https://vislab.isr.tecnico.ulisboa.pt/marsyn-dataset/">MarSyn dataset</a> <span class="citation" data-cites="marsyn2022"><a href="#ref-marsyn2022" role="doc-biblioref">[3]</a></span>, by automating many tasks.</p>
+<p>Our Blender generation process aimed to extend the methodology adopted in the production of the <a href="https://vislab.isr.tecnico.ulisboa.pt/marsyn-dataset/">MarSyn dataset</a> <span class="citation" data-cites="marsyn2022"><a href="#ref-marsyn2022" role="doc-biblioref">[1]</a></span>, by automating many tasks.</p>
 <section id="examples-from-blender" class="level2">
 <h2 class="anchored" data-anchor-id="examples-from-blender">Examples from Blender</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -169,14 +169,8 @@ Note
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-seagull2017" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div><div class="csl-right-inline">R. Ribeiro, G. Cruz, J. Matos, and A. Bernardino, <span>“A data set for airborne maritime surveillance environments,”</span> <em>IEEE Transactions on Circuits and Systems for Video Technology</em>, vol. 29, no. 9, pp. 2720–2732, 2017.</div>
-</div>
-<div id="ref-airbus-ship-detection" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div class="csl-right-inline">M. inversion Jeff Faudi, <span>“Airbus ship detection challenge.”</span> Kaggle, 2018. Available: <a href="https://kaggle.com/competitions/airbus-ship-detection">https://kaggle.com/competitions/airbus-ship-detection</a></div>
-</div>
 <div id="ref-marsyn2022" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] </div><div class="csl-right-inline">M. Ribeiro, B. Damas, and A. Bernardino, <span>“Real-time ship segmentation in maritime surveillance videos using automatically annotated synthetic datasets,”</span> <em>Sensors</em>, vol. 22, p. 8090, Oct. 2022, doi: <a href="https://doi.org/10.3390/s22218090">10.3390/s22218090</a>.</div>
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">M. Ribeiro, B. Damas, and A. Bernardino, <span>“Real-time ship segmentation in maritime surveillance videos using automatically annotated synthetic datasets,”</span> <em>Sensors</em>, vol. 22, p. 8090, Oct. 2022, doi: <a href="https://doi.org/10.3390/s22218090">10.3390/s22218090</a>.</div>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
