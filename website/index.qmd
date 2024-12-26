@@ -51,7 +51,7 @@ Para o sistema de simulação multiplataformas: modeladas e desenvolvidas uma pl
 
 ## Exemplo de configuração MR e teste de voo
 
-![Teste de voo do simulador MR.]{{< video https://youtu.be/BEwa9doXnaA >}}
+{{< video https://youtu.be/BEwa9doXnaA >}}
 
 
 
